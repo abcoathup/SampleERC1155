@@ -1,0 +1,25 @@
+{
+  "name": "SampleERC1155",
+  "version": "1.0.0",
+  "description": "Sample ERC1155",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcoathup/SampleERC1155.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abcoathup/SampleERC1155/issues"
+  },
+  "homepage": "https://github.com/abcoathup/SampleERC1155#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "truffle": "^5.1.51"
+  }
+}

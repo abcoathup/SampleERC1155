@@ -24,7 +24,7 @@
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
-const { projectId, mnemonic } = require('./secrets.json');
+const { infuraProjectId, mnemonic } = require('./secrets.json');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
@@ -73,7 +73,7 @@ module.exports = {
     // },
 
     rinkeby: {
-      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${projectId}`),
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraProjectId}`),
       network_id: 4,       // Rinkeby's id
       gas: 8500000,        
       gasPrice: 1000000000,  // 1 gwei (in wei) (default: 100 gwei)

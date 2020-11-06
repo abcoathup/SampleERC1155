@@ -1,6 +1,6 @@
 {
-  "description": "OpenZeppelin ERC1155 implementation Token 0",
+  "description": "GameItems - Gold",
   "external_url": "https://forum.openzeppelin.com",
-  "image": "https://twemoji.maxcdn.com/svg/1f40e.svg",
-  "name": "Horse"
+  "image": "https://openmoji.org/data/color/svg/1FA99.svg",
+  "name": "Gold"
 }
