@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/abcoathup/SampleERC1155#readme",
   "dependencies": {
-    "@openzeppelin/contracts": "^3.2.0",
+    "@openzeppelin/contracts": "^4.4.1",
     "@truffle/hdwallet-provider": "^1.1.1",
     "truffle": "^5.1.51"
   }
